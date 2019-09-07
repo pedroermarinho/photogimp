@@ -1,20 +1,20 @@
 
 
-####Guardando revisão manual da PhotoGIMP versão 2.10.12
+#### Guardando revisão manual da PhotoGIMP versão 2.10.12
 
 
-#Creditos:
+# Creditos:
 
-##Diolinux
-###Patch que facilita a vida de quem está migrando do ecossistema da Adobe, com o Photoshop, para o GIMP e para quem gosta de um software de edição de imagens simplificado
+## Diolinux
+### Patch que facilita a vida de quem está migrando do ecossistema da Adobe, com o Photoshop, para o GIMP e para quem gosta de um software de edição de imagens simplificado
 ([PhotoGIMP v.2018 - O GIMP para quem vem do Photoshop](https://www.diolinux.com.br/2018/11/photogimp-v2018-o-gimp-para-quem-vem-do-photoshop.html))
 
-##Ryu Ketsueki
-###Icon 
+## Ryu Ketsueki
+### Icon 
 ([Alguém: “Não tem Creative Suite para Linux” - Eu: “Hold my Beer”](https://plus.diolinux.com.br/t/alguem-nao-tem-creative-suite-para-linux-eu-hold-my-beer/8467))
 
-##Snapcrafters
-###Gimp
+## Snapcrafters
+### Gimp
 ([Programa de Manipulação de Imagem GNU](https://github.com/snapcrafters/gimp)
 
 <h1 align="center">
