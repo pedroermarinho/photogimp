@@ -1,13 +1,11 @@
-name: gimp
+name: photogimp
 version: '2.10.12'
 summary: GNU Image Manipulation Program
 description: |
-  Whether you are a graphic designer, photographer, illustrator, or scientist,
-  GIMP provides you with sophisticated tools to get your job done. You can
-  further enhance your productivity with GIMP thanks to many customization
-  options and 3rd party plugins.
-icon: gimp.png
+  patch que facilita a vida de quem está migrando do ecossistema da Adobe,
+  com o Photoshop, para o GIMP e para quem gosta de um software de edição de imagens simplificado.
 
+icon: photogimp.png
 grade: stable
 confinement: strict
 base: core18
@@ -39,6 +37,7 @@ layout:
     bind: $SNAP/usr/share/mypaint-data
 
 
+
 plugs:
   gtk-2-engines:
     interface: content
@@ -64,9 +63,8 @@ slots:
     name: org.gimp.GIMP.UI
 
 apps:
-  gimp:
-    command: desktop-launch $SNAP/usr/bin/gimp
-    desktop: usr/share/applications/gimp.desktop
+  photogimp:
+    command: desktop-launch  $SNAP/photogimp.sh
     common-id: org.gimp.GIMP
     environment:
       GTK_EXE_PREFIX: $SNAP/usr
@@ -466,3 +464,16 @@ parts:
     - on i386:
       - libfftw3-long3
       - libfftw3-quad3
+
+  photogimp-tar:
+    plugin: dump
+    source: snap/local
+    source-type: local
+    stage:
+      - photogimp.tar
+      - photogimp.sh
+      - photogimp.png
+
+
+
+
