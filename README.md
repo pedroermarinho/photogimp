@@ -15,7 +15,7 @@
 
 ## Snapcrafters
 ### Gimp
-([Programa de Manipulação de Imagem GNU](https://github.com/snapcrafters/gimp)
+([Programa de Manipulação de Imagem GNU](https://github.com/snapcrafters/gimp))
 
 <h1 align="center">
   <br/>
