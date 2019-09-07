@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Encoding=UTF-8
-Name=PhotoGimp
+Name=PhotoGIMP
 Comment=Patch para o GIMP
 Icon=${SNAP}/photogimp.png
 Exec=photogimp %F
