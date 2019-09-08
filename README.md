@@ -35,6 +35,14 @@
     sudo snap install photogimp
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
+<br/>
+<br/>
+<br/>
+([Caso ainda não esteja disponivel na snap store baixe aqui!!!](https://github.com/pedroermarinho/photogimp/releases/download/2.10.12/photogimp.snap))
+#### Comando de instalação
+## Install
+
+    sudo snap install --devmode --dangerous photogimp.snap
 
 <h1 align="center">
   <img src="screenshot.png" alt="GIMP">
