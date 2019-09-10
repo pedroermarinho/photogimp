@@ -2,12 +2,11 @@ name: photogimp
 version: '2.10.12'
 summary: GNU Image Manipulation Program
 description: |
-  patch que facilita a vida de quem está migrando do ecossistema da Adobe,
-  com o Photoshop, para o GIMP e para quem gosta de um software de edição de imagens simplificado.
+  patch que facilita a vida de quem está migrando do ecossistema da Adobe,com o Photoshop, para o GIMP e para quem gosta de um software de edição de imagens simplificado.
 
 icon: photogimp.png
-grade: stable
-confinement: strict
+grade: devel
+confinement: devmodet
 base: core18
 
 layout:

@@ -38,7 +38,7 @@
 <br/>
 <br/>
 <br/>
-([Caso ainda não esteja disponivel na snap store baixe aqui!!!](https://github.com/pedroermarinho/photogimp/releases/download/2.10.12/photogimp.snap))
+([Caso ainda não esteja disponivel na snap story baixe aqui!!!](https://github.com/pedroermarinho/photogimp/releases/download/2.10.12/photogimp.snap))
 #### Comando de instalação
 ## Install
 
