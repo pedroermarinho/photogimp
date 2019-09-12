@@ -32,7 +32,7 @@
 
 ## Install
 
-    sudo snap install photogimp
+    sudo snap install photogimp --beta
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 <br/>
