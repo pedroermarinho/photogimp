@@ -1,8 +1,5 @@
 
 
-#### Guardando revisão manual da PhotoGIMP versão 2.10.12 (Em breve, estará disponível)
-
-
 # Creditos:
 
 ## Diolinux
