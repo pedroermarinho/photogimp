@@ -5,8 +5,8 @@ description: |
   patch que facilita a vida de quem está migrando do ecossistema da Adobe,com o Photoshop, para o GIMP e para quem gosta de um software de edição de imagens simplificado.
 
 icon: photogimp.png
-grade: devel
-confinement: devmodet
+grade: stable
+confinement: strict
 base: core18
 
 layout:
@@ -59,12 +59,12 @@ slots:
   dbus-gimp:
     interface: dbus
     bus: session
-    name: org.gimp.GIMP.UI
+    name: org.gimp.PhotoGIMP.UI
 
 apps:
   photogimp:
     command: desktop-launch  $SNAP/photogimp.sh
-    common-id: org.gimp.GIMP
+    common-id: org.gimp.PhotoGIMP
     environment:
       GTK_EXE_PREFIX: $SNAP/usr
       GIMP2_LOCALEDIR: $SNAP/usr/share/locale

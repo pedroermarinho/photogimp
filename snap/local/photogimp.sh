@@ -1,6 +1,7 @@
 #!/bin/bash
 DIR=$SNAP_USER_DATA/.config/GIMP/2.10/
-FILE="photogimp-teste"
+FILE="photogimp-teste1"
+echo $FILE
 # ech$SNAP_USER_DATA
 # echo "o "SNAP_USER_DATA"
 # echo SNAP"
