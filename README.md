@@ -4,7 +4,7 @@
 
 ## Pedro Marinho
 ### Snapcraft 
-(GitHub](https://plus.diolinux.com.br/t/alguem-nao-tem-creative-suite-para-linux-eu-hold-my-beer/8467))
+([GitHub](https://github.com/pedroermarinho))
 
 ## Diolinux
 ### Patch que facilita a vida de quem está migrando do ecossistema da Adobe, com o Photoshop, para o GIMP e para quem gosta de um software de edição de imagens simplificado
@@ -30,6 +30,7 @@
   <br/>
 </h1>
 
+[![Disponível na Snap Store](https://snapcraft.io/static/images/badges/pt/snap-store-black.svg)](https://snapcraft.io/photogimp)
 
 ## Install
 
@@ -39,7 +40,7 @@
 <br/>
 <br/>
 <br/>
-([Caso ainda não esteja disponivel na snap story baixe aqui!!!](https://github.com/pedroermarinho/photogimp/releases/download/2.10.12/photogimp.snap))
+([Caso ainda não esteja disponivel na Snap Store baixe aqui!!!](https://github.com/pedroermarinho/photogimp/releases/download/2.10.12/photogimp.snap))
 #### Comando de instalação
 ## Install
 
