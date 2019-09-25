@@ -10,10 +10,6 @@
 ### Patch que facilita a vida de quem está migrando do ecossistema da Adobe, com o Photoshop, para o GIMP e para quem gosta de um software de edição de imagens simplificado
 ([PhotoGIMP v.2018 - O GIMP para quem vem do Photoshop](https://github.com/pedroermarinho))
 
-## Ryu Ketsueki
-### Icon 
-([Alguém: “Não tem Creative Suite para Linux” - Eu: “Hold my Beer”](https://plus.diolinux.com.br/t/alguem-nao-tem-creative-suite-para-linux-eu-hold-my-beer/8467))
-
 ## Snapcrafters
 ### Gimp
 ([Programa de Manipulação de Imagem GNU](https://github.com/snapcrafters/gimp))
