@@ -1,4 +1,4 @@
-
+https://snapcraft.io/photogimp
 
 # Creditos:
 
@@ -20,7 +20,7 @@
   <br/>
   <img src="photogimp.png" alt="GIMP">
   <br/>
-  PhotoGIMP v.2018 - O GIMP para quem vem do Photoshop
+  PhotoGIMP - O GIMP para quem vem do Photoshop
   <br/>
   <br/>
   <br/>
