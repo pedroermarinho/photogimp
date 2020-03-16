@@ -1,15 +1,14 @@
 <h1 align="center">
-  <br/>
-  <br/>
-  <br/>
   <img src="PhotoGIMP.png" alt="GIMP">
   <br/>
   PhotoGIMP - O GIMP para quem vem do Photoshop
   <br/>
   <a href="https://snapcraft.io/photogimp"> <br/> <img src="https://github.com/snapcore/snap-store-badges/raw/master/PT/%5BPT%5D-snap-store-black-uneditable%401x.png"></a>
-  <br/>
-  <br/>
 </h1>
+
+## O que é o PhotoGIMP?
+
+Patch que facilita a vida de quem está migrando do ecossistema da Adobe, com o Photoshop, para o GIMP e para quem gosta de um software de edição de imagens simplificado.
 
 
 ## Quais são os requisitos para instalar?
@@ -19,14 +18,13 @@
 ```
     sudo snap install photogimp
 ```
-<br/>
-<br/>
-<br/>
 
 ## Capturas de tela
 
 <h1 align="center">
   <img src="screenshot.png" alt="GIMP">
+  <img src="screenshot2.png" alt="GIMP">
+  <img src="screenshot3.png" alt="GIMP">
 </h1>
 
 ## Créditos:
