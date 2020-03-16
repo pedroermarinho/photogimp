@@ -2,7 +2,6 @@
   <img src="PhotoGIMP.png" alt="GIMP">
   <br/>
   PhotoGIMP - O GIMP para quem vem do Photoshop
-  <br/>
   <a href="https://snapcraft.io/photogimp"> <br/> <img src="https://github.com/snapcore/snap-store-badges/raw/master/PT/%5BPT%5D-snap-store-black-uneditable%401x.png"></a>
 </h1>
 
@@ -22,7 +21,6 @@ Patch que facilita a vida de quem está migrando do ecossistema da Adobe, com o 
 ## Capturas de tela
 
 <h1 align="center">
-  <img src="screenshot.png" alt="GIMP">
   <img src="screenshot2.png" alt="GIMP">
   <img src="screenshot3.png" alt="GIMP">
 </h1>
