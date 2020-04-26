@@ -1,0 +1,50 @@
+{
+  "project_name": "photogimp",
+  "version": "2.10.12",
+  "description": "Patch que facilita a vida de quem está migrando do ecossistema da Adobe, com o Photoshop, para o GIMP e para quem gosta de um software de edição de imagens simplificado.",
+  "author": "Pedro Marinho",
+  "icon_src": "PhotoGIMP.png",
+  "snap_store_name": "photogimp",
+  "screenshot_src": ["screenshot.png","screenshot2.png","screenshot3.png"],
+  "github_username": "pedroermarinho",
+  "author_linkedin_username": "pedroermarinho",
+  "author_twitter_username": "pedroermarinho",
+  "author_website": "https://pedroermarinho.github.io/",
+  "homepage": "https://github.com/pedroermarinho/photogimp#readme",
+  "project_demo_url": "https://github.com/pedroermarinho/photogimp#readme",
+  "repository_url": "https://github.com/pedroermarinho/photogimp",
+  "contributing_url": "https://github.com/pedroermarinho/photogimp/blob/master/CONTRIBUTING.md",
+  "documentation_url": "https://github.com/pedroermarinho/photogimp#readme",
+  "license_url": "https://github.com/pedroermarinho/photogimp/blob/master/LICENSE",
+  "issues_url": "https://github.com/pedroermarinho/photogimp/issues",
+  "license": "MIT",
+  "install_command": ["sudo snap install photogimp"],
+  "usage_command": "photogimp",
+  "test_command": null,
+
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pedroermarinho/photogimp.git"
+  },
+  "credits": [
+    {
+      "name": "Snapcrafters",
+      "url": "https://github.com/snapcrafters/gimp"
+    },
+    {
+      "name": "Diolinux",
+      "url": "https://diolinux.com.br/2018/11/photogimp-v2018-o-gimp-para-quem-vem-do-photoshop.html"
+    },
+    {
+      "name": "Pedro Marinho",
+      "url": "https://github.com/pedroermarinho"
+    }
+  ],
+  "keywords": [
+
+  ],
+
+  "is_github_repos": true,
+  "has_start_command": true,
+  "has_test_command": false
+}
