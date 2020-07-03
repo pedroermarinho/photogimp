@@ -665,15 +665,6 @@ parts:
     - -usr/include
     - -usr/lib/pkgconfig
 
-  photogimp-tar:
-    plugin: dump
-    source: snap/local
-    source-type: local
-    stage:
-      - photogimp.tar
-      - photogimp.sh
-      - photogimp.png
-
   gmic:
     after: [gimp]
     plugin: nil
@@ -690,16 +681,16 @@ parts:
       git checkout "$VERSION"
     override-build: |
       make -C gmic/src CImg.h gmic_stdlib.h
-      cd gmic-qt
-      mkdir build
-      cd build
-      cmake .. \
-        -DCMAKE_INSTALL_PREFIX=/usr \
-        -DGMIC_QT_HOST=gimp \
-        -DGMIC_PATH=$SNAPCRAFT_PART_BUILD/gmic/src \
-        -DCMAKE_BUILD_TYPE=Release
-      make
-      make DESTDIR=$SNAPCRAFT_PART_INSTALL install
+      # cd gmic-qt
+      # mkdir build
+      # cd build
+      # cmake .. \
+      #   -DCMAKE_INSTALL_PREFIX=/usr \
+      #   -DGMIC_QT_HOST=gimp \
+      #   -DGMIC_PATH=$SNAPCRAFT_PART_BUILD/gmic/src \
+      #   -DCMAKE_BUILD_TYPE=Release
+      # make
+      # make DESTDIR=$SNAPCRAFT_PART_INSTALL install
       # mv $SNAPCRAFT_PART_INSTALL/usr/bin/gmic $SNAPCRAFT_PART_INSTALL/usr/bin/gmic.real
       # cat <<'EOF' > $SNAPCRAFT_PART_INSTALL/usr/bin/gmic
       # export SNAP_DESKTOP_RUNTIME="$SNAP/kf5"
@@ -884,3 +875,30 @@ parts:
       find $SNAPCRAFT_PRIME/usr/share -type d -empty -not -path "$SNAPCRAFT_PRIME/usr/share/gimp/*" -delete
 
 
+  photogimp-sh:
+    after: [gimp]
+    plugin: dump
+    source: snap/local
+    source-type: local
+    stage:
+      - photogimp.sh
+
+  photogimp-git:
+    after: [gimp]
+    plugin: nil
+    # source: https://github.com/Diolinux/PhotoGIMP.git
+    # source-type: git
+    override-pull: |
+      git clone --branch 1.0 https://github.com/Diolinux/PhotoGIMP.git
+    override-build: |
+      cd PhotoGIMP
+      # git checkout 
+      rm "How to Install PhotoGIMP's Patch.txt" 
+      rm "PhotoGIMP by Diolinux v2020 for Flatpak.zip"
+      rm README.md
+      cp -r .local/share/icons/hicolor/ $SNAPCRAFT_PRIME/usr/share/icons/hicolor/ 
+      rm -r .icons .local
+      mv .var/app/org.gimp.GIMP/config/GIMP/2.10/ ./config
+      rm -r .var
+      touch config/photogimp
+      cp -r ./config $SNAPCRAFT_PRIME
