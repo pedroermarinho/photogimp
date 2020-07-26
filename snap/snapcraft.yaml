@@ -882,6 +882,9 @@ parts:
     source-type: local
     stage:
       - photogimp.sh
+    stage-packages:
+      - libgtk-3-dev
+      - libgtk2.0-dev
 
   photogimp-git:
     after: [gimp]
@@ -893,12 +896,12 @@ parts:
     override-build: |
       cd PhotoGIMP
       # git checkout 
-      rm "How to Install PhotoGIMP's Patch.txt" 
-      rm "PhotoGIMP by Diolinux v2020 for Flatpak.zip"
-      rm README.md
-      cp -r .local/share/icons/hicolor/ $SNAPCRAFT_PRIME/usr/share/icons/hicolor/ 
-      rm -r .icons .local
+      # rm "How to Install PhotoGIMP's Patch.txt" 
+      # rm "PhotoGIMP by Diolinux v2020 for Flatpak.zip"
+      # rm README.md
+      # cp -r .local/share/icons/hicolor/ $SNAPCRAFT_PRIME/usr/share/icons/hicolor/ 
+      # rm -r .icons .local
       mv .var/app/org.gimp.GIMP/config/GIMP/2.10/ ./config
-      rm -r .var
+      # rm -r .var
       touch config/photogimp
       cp -r ./config $SNAPCRAFT_PRIME
